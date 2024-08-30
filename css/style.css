@@ -28,10 +28,153 @@ h3{
 /*Box Modeling*/
 #quienesSomos div,
 #queOfrecemos div{
-    width: 40vw;
-    padding: 30px;
-    margin: 0px 10px;
+    //width: 40vw;
+    //padding: 30px;
+    //margin: 0px 10px;
 }
-footer div{
-    margin: 30px 50px;    
+.columna-footer{
+    margin-bottom: 30px;    
+}
+.navbar-toggler,
+.navbar-toggler:active
+.navbar-toggler:focus{
+
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+.barraSuperior ul{
+    display: flex;
+    align-items: center;
+}
+
+.barraSuperior a,
+.barraSuperior strong{
+    color: rgba(4, 105, 4, 0.979);
+}
+.barraSuperior a:active,
+.barraSuperior a:hover,
+.barraSuperior strong:hover{
+    color: rgba(62, 172, 62, 0.979) !important;
+}
+.imagen-principal{
+    padding: 0px;
+    margin: 0px 0px 10vh 0px;
+}
+.imagen-principal img{
+
+    margin: 0px;
+}
+#categorias{
+    margin-top: 10vh;
+}
+#categorias .row{
+    margin-bottom: 20px;
+}
+.navbar-brand img{
+   height: 45px;
+}
+#presentacion h1{
+    font-weight: 800;
+    font-style: italic;
+}
+#presentacion h2{
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: 0px 35px; 
+}
+.columna-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+footer{
+    padding-top: 5vh;
+}
+.separador{
+    width: 100vw;
+    padding: 5vh 0%;
+    margin: 0%;
+}
+@media (min-width: 991px){
+    .navbar-nav{
+        padding-left:50px;;
+        
+    }
+
+}
+#quienesSomos,
+#queOfrecemos{
+    padding: 0% 10vw;
+}
+.quienesSomosTexto p{
+    text-align: left;
+    font-size: 1.2rem;
+    padding-right: 20px;
+}
+.quienesSomosTexto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productoTexto{
+    text-align: left;
+    font-size: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-bottom: 70px;
+}
+.card-header,
+.card-title,
+.btncontactoMinorista{
+    text-align: center;
+}
+.quienesSomosImagen,
+.contactoImagen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.quienesSomosInfo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.quienesSomosImagen img{
+    width: 300px;
+}
+.btncontactoMinorista,
+.btncontactoMayorista,
+.btncontactoMinorista:hover
+.btncontactoMayorista:hover,
+.btncontacto,
+.btncontacto:hover{
+    background-color: #0f7a12 !important;
+    border: none;
+    color: white !important;
+}
+.contactoForm{
+    padding-right: 50px;
+    margin-bottom: 25px;;
+}
+#formularioDeContacto{
+    padding: 25px;
+}
+#galeria .img-thumbnail{
+    border: none;
+}
+.logo-footer img{
+    width: 100px;
 }
