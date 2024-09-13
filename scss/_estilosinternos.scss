@@ -1,0 +1,167 @@
+// Elementos Comunes
+
+.imagen-principal{
+    padding: 0px;
+    margin: 0px 0px 10vh 0px;
+    img{
+
+        margin: 0px;
+    }
+}
+
+// Fin de Elementos Comunes
+
+
+
+// Index
+
+#categorias{
+    margin-top: 10vh;
+    .row{
+        margin-bottom: 20px;
+    }
+}
+
+#presentacion {
+    h1{
+        font-weight: 800;
+        font-style: italic;
+    }
+    h2{
+        font-size: 1.3rem;
+        font-style: italic;
+        margin: 0px 35px; 
+    }
+}
+
+// Fin de Index
+
+
+
+//Contacto
+
+#tituloContacto p{
+    font-size: 19px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+#formularioDeContacto{
+    color: grey;
+    padding: 25px;
+    .contactoForm{
+        padding-right: 50px;
+        margin-bottom: 25px;;
+        .btncontacto,
+        .btncontacto:hover{
+            background-color: #0f7a12 !important;
+            border: none;
+            color: white !important;
+        }        
+    }
+    .contactoImagen{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+//Fin de Contacto
+
+
+// Quienes Somos
+
+.quienesSomosInfo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#quienesSomos,
+#queOfrecemos{
+    padding: 0% 10vw;
+
+    .quienesSomosImagen{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 300px;
+        }
+    }
+
+    .quienesSomosTexto{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: left;
+            font-size: 1.2rem;
+            padding-right: 20px;
+        }
+    }
+}
+
+
+
+// Finde Quienes Somos
+
+
+//Productos
+
+.btncontactoMinorista,
+.btncontactoMayorista,
+.btncontactoMinorista:hover
+.btncontactoMayorista:hover{
+    background-color: #0f7a12 !important;
+    border: none;
+    color: white !important;
+}
+
+.productoTexto{
+    text-align: left;
+    font-size: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        margin-bottom: 70px;
+        .card-header,
+        .card-title{
+            text-align: center;
+        }
+        .card-body{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .btncontactoMinorista{
+                text-align: center;
+            }
+        }
+        
+    }
+}
+
+// Fin de Productos
+
+
+//Galeria
+
+#presentacionGaleria p{
+    font-size: 19px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+#galeria .img-thumbnail{
+    border: none;
+}
+
+
+//Fin de Galeria

@@ -1,0 +1,54 @@
+.barraSuperior{
+    ul{
+        display: flex;
+        align-items: center;
+        li{
+            a{
+                font-size: 19px;
+            }
+            a,strong{
+                color: nth($colorBarra,1);
+                &:hover,
+                &:active{
+                    color: nth($colorBarra,2) !important;
+                }
+            
+            }    
+        }
+    }
+    .navbar-brand img{
+        height: 45px;
+     }
+    .navbar-toggler,
+    .navbar-toggler:active
+    .navbar-toggler:focus{
+
+        border: none !important;
+        box-shadow: none !important;
+
+}
+}
+
+footer{
+    padding-top: 5vh;
+    .separador{
+        width: 100vw;
+        padding: 5vh 0%;
+        margin: 0%;
+    }
+    .columna-footer{
+
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .logo-footer img{
+        width: 100px;
+    }
+}
+
+
+
