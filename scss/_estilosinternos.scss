@@ -28,8 +28,7 @@
         font-style: italic;
     }
     h2{
-        font-size: 1.3rem;
-        font-style: italic;
+        @include fuenteInit(1.3rem, italic);
         margin: 0px 35px; 
     }
 }
@@ -41,9 +40,9 @@
 //Contacto
 
 #tituloContacto p{
-    font-size: 19px;
+    
+    @include fuenteInit(19px, italic);
     font-weight: 300;
-    font-style: italic;
 
 }
 #formularioDeContacto{
@@ -60,9 +59,7 @@
         }        
     }
     .contactoImagen{
-        display:flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexinicial;
     }
 }
 
@@ -86,18 +83,14 @@
     padding: 0% 10vw;
 
     .quienesSomosImagen{
-        display:flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexinicial;
         img{
             width: 300px;
         }
     }
 
     .quienesSomosTexto{
-        display:flex;
-        justify-content: center;
-        align-items: center;
+        @extend%flexinicial;
         p{
             text-align: left;
             font-size: 1.2rem;
@@ -124,7 +117,7 @@
 
 .productoTexto{
     text-align: left;
-    font-size: 1rem;
+    @include fuenteInit(1rem, normal);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +133,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            h2{
+                @include fuenteInit(19px, italic);
+                font-weight: 500;
+            }
             .btncontactoMinorista{
                 text-align: center;
             }
@@ -154,9 +151,9 @@
 //Galeria
 
 #presentacionGaleria p{
-    font-size: 19px;
+    
+    @include fuenteInit(19px, italic);
     font-weight: 300;
-    font-style: italic;
 
 }
 #galeria .img-thumbnail{

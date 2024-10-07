@@ -7,11 +7,25 @@
 $colorBarra: rgba(4, 105, 4, 0.979) rgba(62, 172, 62, 0.979);
 $fuente: "Roboto", sans-serif;
 
+%flexinicial{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin fuenteInit($sizeInit, $styleInit){
+
+    font-size: $sizeInit;
+    font-style: $styleInit;
+
+}
+
+
 ul{
     list-style-type: none;
 }
 a{
-    text-decoration: none;;
+    text-decoration: none;
 }
 p,
 h1,
